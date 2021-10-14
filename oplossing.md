@@ -5,7 +5,7 @@ opmaak met Markdown.
 a)
 
 
-b)
+b) Er zijn 81 plugins.
 
 
 c)
