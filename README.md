@@ -20,7 +20,7 @@ Onder “customize jenkins” kies je voor “install suggested plugins”. Bij 
 Maak alvast een nieuwe snapshot van je VM. Je merkt dat jenkins momenteel in het Nederlands staat. Zoek online een manier hoe je jenkins om kan zetten in het Engels. 
 
 ![alt_text](https://i.imgur.com/7sj85dD.png "image_tooltip")
-_Documenteer de oplossing hoe je Jenkins in het Engels zet kort in het bestand oplossing.md onder punt (a)._
+_Documenteer de oplossing hoe je Jenkins in het Engels. Indien je Jenkins al in het Engels staat, kijk je hoe je de taal kan aanpassen. Documenteer kort in het bestand oplossing.md hoe je dit gedaan hebt onder punt (a). _
 
 
 ![alt_text](https://i.imgur.com/7sj85dD.png "image_tooltip")
