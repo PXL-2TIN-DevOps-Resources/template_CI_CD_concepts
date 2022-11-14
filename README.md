@@ -5,7 +5,7 @@ Voor deze opdracht maken we gebruik van de Linux VM die we geïnstalleerd hebben
 Installeer java-jdk op deze machine met volgend commando:
 
 ```
-sudo apt install openjdk-11-jdk ca-certificates
+sudo apt install openjdk-17-jdk curl ca-certificates
 ```
 
 Installeer Jenkins op deze virtuele machine. Voor deze opdracht installeer je Jenkins native op de VM zelf. In latere fases kan je Jenkins ook als docker container installeren. Volg de installatiegids op [deze link](https://www.jenkins.io/doc/book/installing/#debianubuntu). Na de installatie surf je naar `localhost:8080` in je virtuele machine en doorloop je de installatie van jenkins zelf.
