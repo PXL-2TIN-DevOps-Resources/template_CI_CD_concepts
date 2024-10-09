@@ -1,14 +1,14 @@
 # Assignment 3: CI & CD concepts
 
-Voor deze opdracht maken we gebruik van de Linux VM die we geïnstalleerd hebben in les 1.
+Voor deze opdracht maken we gebruik van een Linux virtuele machine. Je mag kiezen of je gebruik maakt van een lokale VM of eentje in de cloud. Werk je in de AWS Academy omgeving dan maak je best gebruik van een `T2.medium` instance en maak je gebruik van `Ubuntu 22.04`.
 
-Installeer java-jdk op deze machine met volgend commando:
+Installeer java-jdk op deze machine met het volgende commando:
 
 ```
-sudo apt install openjdk-17-jdk curl ca-certificates
+sudo apt install openjdk-17-jdk curl ca-certificates git
 ```
 
-Installeer Jenkins op deze virtuele machine. Voor deze opdracht installeer je Jenkins native op de VM zelf. In latere fases kan je Jenkins ook als docker container installeren. Volg de installatiegids op [deze link](https://www.jenkins.io/doc/book/installing/#debianubuntu). Na de installatie surf je naar `localhost:8080` in je virtuele machine en doorloop je de installatie van jenkins zelf.
+Installeer Jenkins op deze virtuele machine. Voor deze opdracht installeer je Jenkins native op de VM zelf. In latere fases kan je Jenkins ook als docker container installeren. Volg de installatiegids op [deze link](https://www.jenkins.io/doc/book/installing/#debianubuntu). Na de installatie surf je naar `localhost:8080` in je virtuele machine (of naar het publieke IP adres als je AWS Academy gebruikt) en doorloop je de installatie van jenkins zelf. Gebruik je AWS Academy? Denk er dan aan om poort 8080 in je security group open te zetten.
 
 In het eerste scherm moet je een wachtwoord ingeven. Dit wachtwoord kan je terugvinden onder` /var/lib/jenkins/secrets/initialAdminPassword`. Let op, enkel de root gebruiker kan dit bestand lezen!
 
